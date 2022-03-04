@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
+.body-login{
+    background-image: linear-gradient(90deg, rgb(0, 255, 98), rgb(0, 255, 242));
+
+
+}
+
+.login-principal{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 25px;
+    color: greenyellow;
+    box-shadow: 4px 5px 4px rgba(4,9,30,0.7);
+}
+
+.login{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+
+}
+
+.InputSubmit{
+    width: 100%;
+    height: 58px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(4,9,30,0.7);
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: greenyellow;
+}
+    
+
+.InputSubmit:hover{
+    color: black;
+    background-color:rgb(0, 255, 242);
+    box-shadow: 4px 5px 4px rgba(4,9,30,0.7);
+    cursor: pointer;
+
+}
+
+.logo{
+    width: 100%;
+}
+
+.body-formulario{
+    background-image: linear-gradient(90deg, rgb(0, 255, 98), rgb(0, 255, 242));
+}
+
+.caixa{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+fieldset{
+    border: 10px solid rgb(111, 240, 144);
+}
+
+legend{
+    color: white;
+    border: 1px solid rgb(253, 253, 253);
+    padding: 10px;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 8px;
+
+}
+
+.inputbox{
+    position: relative;
+    color: white;
+    text-shadow: 4px 5px 4px rgba(4,9,30,0.7);
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.Label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputUser:focus ~ .Label,
+.inputUser:valid ~ .Label{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(111, 240, 144);
+
+}
+
+#data_de_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+
+#submit{
+    background-image: linear-gradient(to right, rgb(0, 255, 98), rgb(0, 255, 242));
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+#submit:hover{
+    background: darkgreen;
+    color: white;
+}
+
+/*  pag home */
+
+
